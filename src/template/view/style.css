@@ -1,0 +1,29 @@
+body{
+    margin: 0 auto;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin-top: 50px;
+}
+
+input{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+button{
+    border: 1px solid orchid;
+    border-radius: 200px;
+    background-color: blanchedalmond;
+    padding: 8px;
+    color: saddlebrown;
+}
+
+button:hover{
+    background-color: powderblue;
+}
+
+a{
+    color: salmon;
+    margin-left: 5px;
+}
