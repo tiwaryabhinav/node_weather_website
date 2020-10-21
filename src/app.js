@@ -6,7 +6,7 @@ const geocode=require('./utils/geocode')
 const weather=require('./utils/weather');
 const forecast = require('./utils/weather');
 
-
+const port=process.env.PORT || 3000
 
 
 //PATHS DEFINING FOR EXPRESS
@@ -89,6 +89,6 @@ app.get('*',(req,res)=>{
 })
 
 
-app.listen(3000,()=>{
-console.log('Server is established');
+app.listen(port,()=>{
+console.log('Server is established at port '+port);
 })

@@ -10,7 +10,7 @@ form.addEventListener('submit',(e)=>
     const val=input.value;
     p1.textContent='Loading';
     p2.textContent='';
-    const url='http://localhost:3000/products?search='+val;
+    const url='/products?search='+val;
     fetch(url).then((res)=>{
         res.json().then((data)=>{
             if(data.error)
